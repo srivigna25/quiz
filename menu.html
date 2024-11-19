@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="hi">
+
+<head>
+  <title>Home page:</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  
+
+  
+</head>
+
+
+
+<body>
+
+  <h1>Marks Calculator</h1>
+    <form id="marksForm">
+        <label for="english">English:</label>
+        <input type="number" id="english" name="subject" value="0"><br><br>
+        
+        <label for="hindi">Hindi:</label>
+        <input type="number" id="hindi" name="subject" value="0"><br><br>
+        
+        <label for="maths">Maths:</label>
+        <input type="number" id="maths" name="subject" value="0"><br><br>
+        
+        <!-- Button without inline onclick -->
+        <button type="button" id="calculateBtn">Calculate Total Marks</button>
+    </form>
+
+    <h2>Total Marks: <span id="totalMarks">0</span></h2>
+  <h1>Marks</h1>
+  <vr></vr>
+  <form id="markssheet">
+    <label for="telugu">TELUGU:</label>
+    <input type="number" id="telugu" name="subject" value="0"><br></br>
+    <label for="Social">SOCIAL:</label>
+    <input for="number" id="Social" name="subject" value="0"><br></br>
+    <!-- Button with inline click -->
+    <button type="button" onclick="calculateTotal()">Calculate Total Marks</button>
+  </form>
+  <h2>Total Marks: <span id="TotalMarks">0</span></h2>
+
+  <script src="1.js"></script>
+</body>
+
+</html>
